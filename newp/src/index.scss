@@ -1,0 +1,29 @@
+
+@import './mixin';
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 0 30px;
+    @include herofirst {
+        padding:0 20px;
+    }
+}
+
+@import './Components/Navbar/Navbar.scss';
+@import './Components/Header/hero.scss';
+@import './Components/dishes/dishes.scss';
+@import  './Components/pack/pack.scss';
+@import './Components/Customer/Custom.scss';
+@import './Components/Update/Update.scss';
+@import './Components/Update/Update.scss';
+@import './Components/Gallery/gallery.scss';
+@import './Components/Footer/Footer.scss';
+
+
+
